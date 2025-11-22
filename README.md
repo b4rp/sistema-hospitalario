@@ -43,15 +43,20 @@ V2.6/
    pip install -r requirements.txt
    ```
 
+
 3. **Crea la base de datos**
    ```sh
    sqlite3 hospital.db < hospital.sql
    ```
+   Esto solo crea la estructura vacía de la base de datos. Si omites este paso, la aplicación Streamlit la generará automáticamente al iniciar, junto con la clave de cifrado.
 
 4. **Pobla la base con datos de prueba**
    ```sh
    python scripts/datos_pruebas.py
    ```
+   Este script solo inserta datos de ejemplo en la base ya creada, útil para pruebas y desarrollo. No crea la base ni la clave.
+
+> **Nota:** Al ejecutar `streamlit run app.py`, si la base de datos o la clave de cifrado no existen, el sistema las creará automáticamente y luego iniciará el servidor web.
 
 ## Uso
 
