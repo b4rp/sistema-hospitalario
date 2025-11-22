@@ -1,7 +1,6 @@
 -- ===========================================================
 -- PROYECTO: SISTEMA DE GESTIÓN HOSPITAL
--- SEMANA 5: IMPLEMENTACIÓN DE LA BASE DE DATOS
--- Autores: Catalina Palma, Matías Bórquz y Benjamín Rivera
+-- Autores: Matías Bórquz y Benjamín Rivera
 -- Fecha: 21/10/2025
 -- ===========================================================
 
@@ -178,4 +177,5 @@ CREATE INDEX IF NOT EXISTS idx_horario_medico_medico_dia ON horario_medico(id_me
 
 -- ===========================================================
 -- FIN DEL SCRIPT
+
 -- ===========================================================
