@@ -18,7 +18,7 @@ Proyecto universitario para la gestión integral de pacientes, médicos, citas, 
 ## Estructura del proyecto
 
 ```
-V2.6/
+sistema-hospitalario/
 ├── app.py                      # Entrada principal de la app Streamlit
 ├── hospital.sql                # Script SQL con el esquema de la base de datos
 ├── requirements.txt            # Dependencias del proyecto
@@ -99,3 +99,4 @@ V2.6/
 ## Licencia
 
 Este proyecto es de uso académico. Puedes modificarlo y adaptarlo libremente para fines educativos.
+
