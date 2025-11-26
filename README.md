@@ -35,7 +35,7 @@ sistema-hospitalario/
 1. **Clona el repositorio**
    ```sh
    git clone <url-del-repo>
-   cd V2.6
+   cd sistema-hospitalario
    ```
 
 2. **Instala dependencias**
@@ -99,4 +99,5 @@ sistema-hospitalario/
 ## Licencia
 
 Este proyecto es de uso académico. Puedes modificarlo y adaptarlo libremente para fines educativos.
+
 
